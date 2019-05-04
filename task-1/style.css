@@ -1,0 +1,123 @@
+/* Circle Button */
+#circle-button {
+    height: 45px;
+    width: 50px;
+    background-color: white;
+    border:2px solid #37A1F3;
+    border-radius: 50%;
+  }
+
+  #circle-button:hover{
+    background-color:#37A1F3;
+    cursor:pointer;
+    color:white;
+  }
+  #circle-button:hover .ico{
+    color:white;
+  }
+/*  First Button  */
+  .first-button {
+      height:56px;
+      width:201px;
+      background-color:#D50006;
+      border:transparent;
+      color:white;
+      font-family: 'Montserrat', sans-serif;
+      font-weight:bold;
+      font-size:18px; 
+  }
+
+  .first-button:hover{
+    background-color:#ED4C4F;
+    cursor:pointer;
+  }
+/* Second Button */
+  .second-button{
+    height:50px;
+    width:100px;
+    background-color:#FFDB05;
+    color:#2A61FB;
+    border:3px solid #2A61FB; 
+    font-family: 'Gugi', cursive;
+    font-size:20px;
+    
+  }
+
+  .second-button:hover{
+    background-color:#2A61FB;
+    color:#FDD835;
+    cursor:pointer;
+  }
+  
+/* Third Button */
+  .third-button{
+    height:41px;
+    width:120px;
+    background-image:linear-gradient(90deg, rgba(16,213,219,1) 27%, rgba(92,219,168,1) 60%, rgba(132,218,143,1) 84%);
+    color:white;
+    border:transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    border-radius:20px;
+    
+  }
+
+  .third-button:hover{
+    background-image:linear-gradient(90deg, rgba(16,213,219,1) 37%, rgba(92,219,168,1) 70%, rgba(132,218,143,1) 90%);
+    cursor:pointer;
+  }
+
+  /* Fourth Button */
+  .fourth-button{
+    height:38px;
+    width:108px;
+    background-color:white;
+    color:#6749EA;
+    border:2px solid #2A61FB;
+    border-radius:5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    font-size:14px;
+ 
+  }
+
+  .fourth-button:hover{
+    background-color:#6749EA;
+    color:white;
+    border:transparent;
+    cursor:pointer;
+  }
+
+  /* Fifth Button */
+  .fifth-button{
+    height:45px;
+    width:156px;
+    background-image:linear-gradient(#FCBF08,#FF9F02);
+    color:#FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    border:2px solid #F59F31;
+   
+  }
+  .fifth-button:hover{
+    background-color:#F38E31;
+    border-color:#F59F31;
+    cursor:pointer;
+  }
+
+  /* For padding  */
+.button-padding{ 
+     padding:30px;
+}
+
+/* For center the buttons */
+.container{
+    display:flex;
+    justify-content: center;
+     margin-top:200px; 
+}
+
+/* twitter icon color change */
+.ico{
+color:#37A1F3;
+}

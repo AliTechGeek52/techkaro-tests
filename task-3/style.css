@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(90deg, rgba(16,213,219,1) 27%, rgba(92,219,168,1) 60%, rgba(132,218,143,1) 84%);
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.form-border{
+    border:2px solid grey;
+   border-radius:5px;
+}
+.container{
+    display:flex;
+    justify-content: center;
+  
+}
+
+input{
+    padding:10px;
+    width:100%;
+}
+
+button{
+    border:transparent;
+    background-color:#43A6BB;
+    width:122px;
+    height:36px;
+    border-radius:2px;
+    color:white;
+    font-weight: bold;
+    font-size:16px;
+}
+
+.padding{
+    padding:10px;
+}
